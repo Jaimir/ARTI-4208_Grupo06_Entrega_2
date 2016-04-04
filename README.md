@@ -10,21 +10,11 @@ Acá se describe el contenido de los archivos utilizados durante el proyecto en 
 
 Archivo de PowerPoint presentado en clase. 
 
-### Carpetas vm_base / vm_dock
+### Carpetas nodeappkaf y vm_mosquitto
 
-Son las carpetas que almacenan la configuración del ambiente a virtualizar realizado para el proyecto. 
-_vm_base_ es la primera máquina virtual creada, asociada directamente dentro del contexto de _vagrant_, a la box Ubunt/trusty64. 
-_vm_dock_ es la segunda máquina virtual creada, asociada directamente dentro del contexto de _vagrant_, a la box Ubunt/vivid64. En ésta última si instaló en un contendedor de docker una imagen de _mongoDB_. 
+Las carpetas contienen los archivos para configuración y ejecución de nodejs y MQTT. El archivo json_nodejs_kafka.js recibe mensajes JSON mediante puerto 2181 y los envia a Kafka.
 
-Ambas carpetas contienen, además del repositorio, los siguientes archivos: 
-
-**- vagrantfile:** Se modifica el documento original entregado en los talleres, para que fuese personalizado. 
-
-**- install.sh:** Se deja intacto a como vino el original.
-
-**- init.sh:** Se deja intacto a como vino el original.
-
-**- keys.sh:** Se deja intacto a como vino el original.
+Para el envio de mensajes, se requiere tener kafka y zookeeper inicializado. Para kafka, se puede construir la imagen desde : docker pull spotify/kafkaproxy
 
 ### Carpetas images
 
