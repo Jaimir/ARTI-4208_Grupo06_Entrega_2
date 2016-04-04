@@ -32,7 +32,7 @@ Almacena archivos dosc y fuentes tales como las imagenes tomadas como evidencia 
 
 ### Simulador Mqtt.fx
 
-En el repositorio Simulador MQTT se encuentra el instalador del simulador Mqtt.fx mediante el cual se general mensajes a la cola de mosquitto. 
+En el repositorio Simulador MQTT se encuentra el instalador del simulador [Mqtt.fx](http://mqttfx.jfx4ee.org/) mediante el cual se general mensajes a la cola de mosquitto. 
 
 
 
