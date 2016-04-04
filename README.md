@@ -6,6 +6,10 @@ Repositorio principal para todos los archivos (docs, ejecutables, fuentes, imág
 
 Acá se describe el contenido de los archivos utilizados durante el proyecto en cada una de sus versiones. 
 
+### PresentacionDiseño_3.pptx 
+
+Archivo de PowerPoint presentado en clase. 
+
 ### Carpetas vm_base / vm_dock
 
 Son las carpetas que almacenan la configuración del ambiente a virtualizar realizado para el proyecto. 
